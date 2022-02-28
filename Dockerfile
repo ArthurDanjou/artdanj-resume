@@ -12,4 +12,4 @@ RUN yarn build
 
 EXPOSE 3344
 
-CMD ["yarn", "preview --port 3344"]
+CMD ["yarn", "preview", "--port 3344"]
