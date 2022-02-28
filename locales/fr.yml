@@ -39,13 +39,13 @@ header.job: Ingénieur Logiciel
 
 interests:
   title: Intérêts
-  content: Nouvelles technologies, développement, administration système, cloud computing, voyage, automobile, aéronautique, aérospatial, mathématiques, musculation
+  content: New technologies, development, scalable infrastructure, network, cloud, travel, automotive, aeronautics, aerospace, mathematics, bodybuilding
 
 projects:
   title: Projets
   more: Voir plus de projets
 
-  ares: Site web personnel créant un unique point de contact
+  ares: Site web personnel créant un unique point de contact avec mes clients
   athena: API connectée à des services comme Spotify fournissant diverses informations
   linkyjs: Raccourcisseur d'URL Open-Source pour les développeurs
   slidev: Traduction de la documentation en Français

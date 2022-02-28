@@ -4,7 +4,7 @@ date:
   from: From
   to: to
   in: In
-  today: Today'hui
+  today: Today
 
 months:
   '01': January
@@ -22,13 +22,13 @@ months:
 
 about:
   title: About
-  first: Je suis Arthur Danjou, un étudiant en mathématiques à la faculté des sciences de Paris-Saclay mais également un ingénieur logiciel freelance.
-    Je m'intéresse beaucoup aux nouvelles technologies, au développement et à l'informatique.
-    Je suis capable d'apprendre rapidement des nouvelles technologies pour répondre aux besoins des différents projets.
-    Je suis toujours motivé par un défi et j'aime être bien organisé pour produire des résultats cohérents.
-    Pouvoir créer un logiciel à partir de rien est une réelle source de motivation.
-  second: J'adore partager mes connaissances et aider les autres. Je me renseigne beaucoup et lis beaucoup d'articles techniques pour découvrir de nouvelles fonctionnalités.
-    Tant que je partage mes passions, je continuerai à faire ça.
+  first: I am Arthur Danjou, a mathematics student at the Faculty of Sciences of Paris-Saclay but also a freelance software engineer.
+    I am very interested in new technologies, development and computing.
+    I am able to quickly learn new technologies to meet the needs of different projects.
+    I am always motivated by a challenge and like to be well organized to produce consistent results.
+    Being able to create software from scratch is a real source of motivation.
+  second: I love sharing my knowledge and helping others. I do a lot of research and read a lot of technical articles to discover new features.
+    As long as I share my passions, I will continue to do this.
 
 footer:
   pdf: PDF version
@@ -39,14 +39,19 @@ header.job: Software Ingineer
 
 interests:
   title: Interests
-  content: Nouvelles technologies, développement, administration système, cloud computing, voyage, automobile, aéronautique, aérospatial, mathématiques, musculation
+  content: New technologies, development, scalable infrastructure, network, cloud, travel, automotive, aeronautics, aerospace, mathematics, bodybuilding
 
 projects:
   title: Projects
   more: See more projects
 
+  ares: Personal website creating a single point of contact with my customers
+  athena: API connected to services like Spotify providing various information
+  linkyjs: Open-Source URL Shortener for Developers
+  slidev: Translation of documentation in French
+
 stacks:
-  title: Stack
+  title: Technical stack
   languages: Languages
   devops: DevOps
   frontend: FrontEnd
@@ -60,26 +65,26 @@ works:
   title: Work experiences
 
   autoentrepreneur:
-    title: FullStack Web et Software Development
-    content: Développement, conception et illustration de projets informatiques personnels. Apprentissage de nouvelles technologies et langages de programmation
+    title: FullStack Web and Software Development
+    content: Development, design and illustration of personal computer projects. Learning new technologies and programming languages
   erisium:
     title: Junior Developer
-    content: Développement et réalisation de projets informatiques conçus par l’équipe de Design. Maintien et mise à jour de projets en production. Correction de bugs présents
+    content: Development and realization of IT projects designed by the Design team. Maintaining and updating projects in production. Fixed bugs present
   idemia:
-    title: Stage d'observation
-    content: Découverte du secteur IT, technologie de l’information et du Datacenter. Découverte de différents métiers de la société
+    title: Internship observation
+    content: Discovery of the IT sector, information technology and Datacenter. Discovery of different professions of the company
   lsam:
-    title: Stage de découverte
-    content: Nettoyage et préparation de la salle, accueil des clients, prise de commandes et services en salle
+    title: Internship discovery
+    content: Room cleaning and preparation, customer reception, order taking and room services
 
 educations:
   title: Educations
-  tb: Mention Très Bien
-  b: Mention Bien
+  tb: Très Bien Mention (>16/20)
+  b: Bien Mention (>14/20)
 
-  license: Licence de Mathématiques
-  baccalaureate: Baccalauréat Général spécialités Mathématiques et Physique-Chimie
-  dnb: Diplôme National du Brevet
+  license: Mathematics License
+  baccalaureate: General baccalaureate with specializations in Mathematics and Physics-Chemistry
+  dnb: National Certificate
   selftaught:
-    title: Apprentissage en autodidacte
-    content: Apprentissage de langages de programmation (TypeScript, Rust, Java, Python...) et de technologies
+    title: Self-taught learning
+    content: Learning programming languages (TypeScript, Rust, Java, Python...) and technologies
