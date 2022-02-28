@@ -1,8 +1,8 @@
 <template>
   <div class="mt-8 text-center">
-    <a class="leading-5 font-bold border-b-2 hover:(border-gray-700 dark:border-white) border-gray-300 dark:border-gray-700 dark:border-gray-800 duration-300 cursor-pointer">
+    <!-- <a class="leading-5 font-bold border-b-2 hover:(border-gray-700 dark:border-white) border-gray-300 dark:border-gray-700 dark:border-gray-800 duration-300 cursor-pointer">
       {{ t('footer.pdf') }}
-    </a>
+    </a> -->
     <p class="text-xs text-gray-700 dark:text-gray-300 mt-4">
       {{ t('footer.updated', {date: updated}) }}
     </p>
