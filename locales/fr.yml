@@ -1,0 +1,90 @@
+back: Retour au site principal
+
+date:
+  from: De
+  to: à
+  in: En
+  today: Aujourd'hui
+
+months:
+  '01': Janvier
+  '02': Février
+  '03': Mars
+  '04': Avril
+  '05': Mai
+  '06': Juin
+  '07': Juillet
+  '08': Août
+  '09': Septembre
+  10: Octobre
+  11: Novembre
+  12: Décembre
+
+about:
+  title: A propos
+  first: Je suis Arthur Danjou, un étudiant en mathématiques à la faculté des sciences de Paris-Saclay mais également un ingénieur logiciel freelance.
+    Je m'intéresse beaucoup aux nouvelles technologies, au développement et à l'informatique.
+    Je suis capable d'apprendre rapidement des nouvelles technologies pour répondre aux besoins des différents projets.
+    Je suis toujours motivé par un défi et j'aime être bien organisé pour produire des résultats cohérents.
+    Pouvoir créer un logiciel à partir de rien est une réelle source de motivation.
+  second: J'adore partager mes connaissances et aider les autres. Je me renseigne beaucoup et lis beaucoup d'articles techniques pour découvrir de nouvelles fonctionnalités.
+    Tant que je partage mes passions, je continuerai à faire ça.
+
+footer:
+  pdf: version PDF
+  updated: Dernière mise à jour le {date}
+  copyright: © {year} Arthur Danjou - Tous droits réservés
+
+header.job: Ingénieur Logiciel
+
+interests:
+  title: Intérêts
+  content: Nouvelles technologies, développement, administration système, cloud computing, voyage, automobile, aéronautique, aérospatial, mathématiques, musculation
+
+projects:
+  title: Projets
+  more: Voir plus de projets
+
+  ares: Site web personnel créant un unique point de contact
+  athena: API connectée à des services comme Spotify fournissant diverses informations
+  linkyjs: Raccourcisseur d'URL Open-Source pour les développeurs
+  slidev: Traduction de la documentation en Français
+
+stacks:
+  title: Stack technique
+  languages: Langages
+  devops: DevOps
+  frontend: FrontEnd
+  backend: BackEnd
+
+languages:
+  title: Langues
+  content: <strong>Francais</strong> (Langue natale), <strong>Anglais</strong> (Langue courante)
+
+works:
+  title: Expériences professionnelles
+
+  autoentrepreneur:
+    title: Développement FullStack Web et Logiciel
+    content: Développement, conception et illustration de projets informatiques personnels. Apprentissage de nouvelles technologies et langages de programmation
+  erisium:
+    title: Développeur Junior
+    content: Développement et réalisation de projets informatiques conçus par l’équipe de Design. Maintien et mise à jour de projets en production. Correction de bugs présents
+  idemia:
+    title: Stage d'observation
+    content: Découverte du secteur IT, technologie de l’information et du Datacenter. Découverte de différents métiers de la société
+  lsam:
+    title: Stage de découverte
+    content: Nettoyage et préparation de la salle, accueil des clients, prise de commandes et services en salle
+
+educations:
+  title: Formations
+  tb: Mention Très Bien
+  b: Mention Bien
+
+  license: Licence de Mathématiques
+  baccalaureate: Baccalauréat Général spécialités Mathématiques et Physique-Chimie
+  dnb: Diplôme National du Brevet
+  selftaught:
+    title: Apprentissage en autodidacte
+    content: Apprentissage de langages de programmation (TypeScript, Rust, Java, Python...) et de technologies

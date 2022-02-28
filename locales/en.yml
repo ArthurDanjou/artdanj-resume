@@ -1,0 +1,85 @@
+back: Back to main website
+
+date:
+  from: From
+  to: to
+  in: In
+  today: Today'hui
+
+months:
+  '01': January
+  '02': Debruary
+  '03': March
+  '04': April
+  '05': May
+  '06': June
+  '07': July
+  '08': August
+  '09': September
+  10: October
+  11: November
+  12: December
+
+about:
+  title: About
+  first: Je suis Arthur Danjou, un étudiant en mathématiques à la faculté des sciences de Paris-Saclay mais également un ingénieur logiciel freelance.
+    Je m'intéresse beaucoup aux nouvelles technologies, au développement et à l'informatique.
+    Je suis capable d'apprendre rapidement des nouvelles technologies pour répondre aux besoins des différents projets.
+    Je suis toujours motivé par un défi et j'aime être bien organisé pour produire des résultats cohérents.
+    Pouvoir créer un logiciel à partir de rien est une réelle source de motivation.
+  second: J'adore partager mes connaissances et aider les autres. Je me renseigne beaucoup et lis beaucoup d'articles techniques pour découvrir de nouvelles fonctionnalités.
+    Tant que je partage mes passions, je continuerai à faire ça.
+
+footer:
+  pdf: PDF version
+  updated: Last updated on {date}
+  copyright: © {year} Arthur Danjou - All rights reserved
+
+header.job: Software Ingineer
+
+interests:
+  title: Interests
+  content: Nouvelles technologies, développement, administration système, cloud computing, voyage, automobile, aéronautique, aérospatial, mathématiques, musculation
+
+projects:
+  title: Projects
+  more: See more projects
+
+stacks:
+  title: Stack
+  languages: Languages
+  devops: DevOps
+  frontend: FrontEnd
+  backend: BackEnd
+
+languages:
+  title: Languages
+  content: <strong>French</strong> (Native Speaker), <strong>English</strong> (Fluent)
+
+works:
+  title: Work experiences
+
+  autoentrepreneur:
+    title: FullStack Web et Software Development
+    content: Développement, conception et illustration de projets informatiques personnels. Apprentissage de nouvelles technologies et langages de programmation
+  erisium:
+    title: Junior Developer
+    content: Développement et réalisation de projets informatiques conçus par l’équipe de Design. Maintien et mise à jour de projets en production. Correction de bugs présents
+  idemia:
+    title: Stage d'observation
+    content: Découverte du secteur IT, technologie de l’information et du Datacenter. Découverte de différents métiers de la société
+  lsam:
+    title: Stage de découverte
+    content: Nettoyage et préparation de la salle, accueil des clients, prise de commandes et services en salle
+
+educations:
+  title: Educations
+  tb: Mention Très Bien
+  b: Mention Bien
+
+  license: Licence de Mathématiques
+  baccalaureate: Baccalauréat Général spécialités Mathématiques et Physique-Chimie
+  dnb: Diplôme National du Brevet
+  selftaught:
+    title: Apprentissage en autodidacte
+    content: Apprentissage de langages de programmation (TypeScript, Rust, Java, Python...) et de technologies
