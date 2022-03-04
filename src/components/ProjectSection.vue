@@ -15,10 +15,12 @@
       <Project
         title="LinkyJs"
         description="projects.linkyjs"
+        url="https://github.com/linkyjs"
       />
       <Project
         title="Slidev"
         description="projects.slidev"
+        url="https://sli.dev"
       />
     </div>
     <div class="flex justify-center sm:justify-start">
