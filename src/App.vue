@@ -4,7 +4,7 @@ import { useHead } from '@vueuse/head'
 useHead({
   title: 'Arthur Danjou - My Résumé',
   meta: [
-    { name: 'description', content: 'See my technology resume' },
+    { name: 'description', content: 'Check my technology résumé' },
   ],
 })
 </script>
