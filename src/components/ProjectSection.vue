@@ -7,7 +7,7 @@ const { t } = useI18n()
 <template>
   <SectionTitle title="projects.title" />
   <SectionPart>
-    <div class="grid gris-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-4 h-full auto-rows-fr">
       <Project
         title="Ares"
         description="projects.ares"
@@ -33,7 +33,7 @@ const { t } = useI18n()
       <a
         href="https://arthurdanjou.fr/projects"
         target="_blank"
-        class="leading-5 font-bold border-b-2 hover:(border-gray-700 dark:border-white) border-gray-300 dark:border-gray-700 dark:border-gray-800 duration-300 cursor-pointer"
+        class="leading-5 font-bold border-b-2 hover:(border-gray-700 dark:border-white) border-gray-300 dark:border-gray-600 dark:border-gray-800 duration-300 cursor-pointer"
       >
         {{ t('projects.more') }}
       </a>

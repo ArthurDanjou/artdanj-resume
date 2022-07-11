@@ -22,8 +22,7 @@ const { t } = useI18n()
     :href="url"
     target="_blank"
   >
-    <div class="w-full h-full p-2 border-2 rounded-lg border-white hover:border-gray-300 duration-500 cursor-pointer">
-
+    <div class="w-full h-full p-2 border-2 rounded-lg border-white dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-500 duration-500 cursor-pointer">
       <h1 class="font-bold">
         {{ title }}
       </h1>
