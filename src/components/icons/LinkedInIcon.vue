@@ -1,3 +1,9 @@
+<script>
+export default {
+  name: 'LinkedInIcon',
+}
+</script>
+
 <template>
   <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" focusable="false">
     <path
@@ -6,9 +12,3 @@
     />
   </svg>
 </template>
-
-<script>
-export default {
-  name: 'LinkedInIcon',
-}
-</script>

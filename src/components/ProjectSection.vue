@@ -1,3 +1,9 @@
+<script setup>
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+</script>
+
 <template>
   <SectionTitle title="projects.title" />
   <SectionPart>
@@ -34,9 +40,3 @@
     </div>
   </SectionPart>
 </template>
-
-<script setup>
-import { useI18n } from 'vue-i18n'
-
-const { t } = useI18n()
-</script>

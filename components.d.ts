@@ -22,6 +22,8 @@ declare module 'vue' {
     MoonIcon: typeof import('./src/components/icons/MoonIcon.vue')['default']
     Project: typeof import('./src/components/Project.vue')['default']
     ProjectSection: typeof import('./src/components/ProjectSection.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
     SectionPart: typeof import('./src/components/SectionPart.vue')['default']
     SectionTitle: typeof import('./src/components/SectionTitle.vue')['default']
     SocialList: typeof import('./src/components/SocialList.vue')['default']
@@ -33,5 +35,3 @@ declare module 'vue' {
     WorkSection: typeof import('./src/components/WorkSection.vue')['default']
   }
 }
-
-export { }

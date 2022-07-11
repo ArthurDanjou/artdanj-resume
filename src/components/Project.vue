@@ -1,3 +1,21 @@
+<script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+
+defineProps({
+  title: {
+    type: String,
+  },
+  url: {
+    type: String,
+  },
+  description: {
+    type: String,
+  },
+})
+
+const { t } = useI18n()
+</script>
+
 <template>
   <a
     class="w-full h-full"
@@ -15,21 +33,3 @@
     </div>
   </a>
 </template>
-
-<script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-
-const { t } = useI18n()
-
-defineProps({
-  title: {
-    type: String,
-  },
-  url: {
-    type: String,
-  },
-  description: {
-    type: String,
-  },
-})
-</script>

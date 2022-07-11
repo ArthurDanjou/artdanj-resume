@@ -1,3 +1,9 @@
+<script>
+export default {
+  name: 'InstagramIcon',
+}
+</script>
+
 <template>
   <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" focusable="false">
     <path
@@ -6,9 +12,3 @@
     />
   </svg>
 </template>
-
-<script>
-export default {
-  name: 'InstagramIcon',
-}
-</script>

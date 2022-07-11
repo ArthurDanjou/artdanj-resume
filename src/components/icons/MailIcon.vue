@@ -1,3 +1,9 @@
+<script>
+export default {
+  name: 'MailIcon',
+}
+</script>
+
 <template>
   <svg width="1.3em" height="1.3em" viewBox="0 0 24 24" focusable="false">
     <path
@@ -6,9 +12,3 @@
     />
   </svg>
 </template>
-
-<script>
-export default {
-  name: 'MailIcon',
-}
-</script>

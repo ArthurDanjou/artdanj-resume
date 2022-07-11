@@ -1,3 +1,9 @@
+<script setup>
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+</script>
+
 <template>
   <a href="https://arthurdanjou.fr" target="_blank" class="flex items-center mb-4 text-gray-700 dark:text-gray-300 text-sm">
     <div class="group cursor-pointer flex items-center">
@@ -5,9 +11,3 @@
     </div>
   </a>
 </template>
-
-<script setup>
-import { useI18n } from 'vue-i18n'
-
-const { t } = useI18n()
-</script>

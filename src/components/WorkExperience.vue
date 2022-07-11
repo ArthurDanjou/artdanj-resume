@@ -1,3 +1,42 @@
+<script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+
+const props = defineProps({
+  title: {
+    type: String,
+  },
+  company: {
+    type: String,
+  },
+  location: {
+    type: String,
+  },
+  beginDate: {
+    type: String,
+    required: true,
+  },
+  endDate: {
+    type: String,
+    required: true,
+  },
+  url: {
+    type: String,
+  },
+})
+
+const { t } = useI18n()
+
+const getEndDate = computed(() => {
+  return props.endDate === 'Today'
+    ? t('date.today')
+    : `${t(`months.${props.endDate.split('/')[0]}`)} ${props.endDate.split('/')[1]}`
+})
+
+const getBeginDate = computed(() => {
+  return `${t(`months.${props.beginDate.split('/')[0]}`)} ${props.beginDate.split('/')[1]}`
+})
+</script>
+
 <template>
   <div>
     <div>
@@ -25,42 +64,3 @@
     </p>
   </div>
 </template>
-
-<script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-
-const { t } = useI18n()
-
-const props = defineProps({
-  title: {
-    type: String,
-  },
-  company: {
-    type: String,
-  },
-  location: {
-    type: String,
-  },
-  beginDate: {
-    type: String,
-    required: true,
-  },
-  endDate: {
-    type: String,
-    required: true,
-  },
-  url: {
-    type: String,
-  },
-})
-
-const getEndDate = computed(() => {
-  return props.endDate === 'Today'
-    ? t('date.today')
-    : `${t(`months.${props.endDate.split('/')[0]}`)} ${props.endDate.split('/')[1]}`
-})
-
-const getBeginDate = computed(() => {
-  return `${t(`months.${props.beginDate.split('/')[0]}`)} ${props.beginDate.split('/')[1]}`
-})
-</script>

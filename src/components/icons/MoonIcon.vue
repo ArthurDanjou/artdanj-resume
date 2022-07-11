@@ -1,3 +1,9 @@
+<script>
+export default {
+  name: 'MoonIcon',
+}
+</script>
+
 <template>
   <svg width="1.3em" height="1.3em" viewBox="0 0 256 256" focusable="false">
     <path
@@ -5,9 +11,3 @@
     />
   </svg>
 </template>
-
-<script>
-export default {
-  name: 'MoonIcon',
-}
-</script>
