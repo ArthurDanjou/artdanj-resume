@@ -45,12 +45,12 @@ projects:
   title: Projects
   more: See more projects
 
-  site web: 🌍 Mon site personnel, mon portfolio et mon blog.
-  api: ⚙️ Mon API personnelle connectée à mes instances et mes services.
-  raccourcisseur: 🧰 Raccourcisseur d'URL pour les développeurs.
-  slidev: 🇫🇷 Traduction de la documentation en anglais.
-  make-server: ☁️ Déployer de nombreux services présents sur mon infrastructure à partir de fichiers pour Kubernetes.
-  fallback: ⚠️/❌ Routage de secours en amont pour mon instance Traefik hébergée, achemine le trafic ailleurs lorsqu'un service est en panne.
+  website: 🌍 My personal website, my portfolio, and my blog.
+  api: ⚙️ My personal API connected to my instances and my services.
+  shortener: 🧰 URL Shortener for Developers.
+  slidev: 🇫🇷 Translation of documentation in French.
+  make-server: ☁️ Deploy many services present on my infrastructure from files for Kubernetes.
+  fallback: ⚠️/❌ Upstream fallback routing for my hosted Traefik instance, routes traffic elsewhere when a service is down.
 
 stacks:
   title: Technical stack

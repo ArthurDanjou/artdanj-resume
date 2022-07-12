@@ -45,12 +45,12 @@ projects:
   title: Projets
   more: Voir plus de projets
 
-  website: Site web personnel créant un unique point de contact avec mes clients
-  api: API connectée à des services comme Spotify fournissant diverses informations
-  shortener: Raccourcisseur d'URL Open-Source pour les développeurs
-  slidev: Traduction de la documentation en Français
-  make-server:
-  fallback:
+  site web: 🌍 Mon site personnel, mon portfolio et mon blog.
+  api: ⚙️ Mon API personnelle connectée à mes instances et mes services.
+  raccourcisseur: 🧰 Raccourcisseur d'URL pour les développeurs.
+  slidev: 🇫🇷 Traduction de la documentation en anglais.
+  make-server: ☁️ Déployer de nombreux services présents sur mon infrastructure à partir de fichiers pour Kubernetes.
+  fallback: ⚠️/❌ Routage de secours en amont pour mon instance Traefik hébergée, achemine le trafic ailleurs lorsqu'un service est en panne.
 
 stacks:
   title: Stack technique
