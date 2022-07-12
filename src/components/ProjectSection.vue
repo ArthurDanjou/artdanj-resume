@@ -28,6 +28,16 @@ const { t } = useI18n()
         description="projects.slidev"
         url="https://sli.dev"
       />
+      <Project
+        title="artdanj-fallback"
+        description="projects.fallback"
+        url="https://fallback.arthurdanjou.fr"
+      />
+      <Project
+        title="make-my-sever"
+        description="projects.make-server"
+        url="https://github.com/arthurdanjou/make-my-server"
+      />
     </div>
     <div class="flex justify-center sm:justify-start">
       <a

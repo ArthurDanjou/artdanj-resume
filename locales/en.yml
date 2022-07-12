@@ -45,10 +45,12 @@ projects:
   title: Projects
   more: See more projects
 
-  website: Personal website creating a single point of contact with my customers
-  api: API connected to services like Spotify providing various information
-  shortener: Open-Source URL Shortener for Developers
-  slidev: Translation of documentation in French
+  site web: 🌍 Mon site personnel, mon portfolio et mon blog.
+  api: ⚙️ Mon API personnelle connectée à mes instances et mes services.
+  raccourcisseur: 🧰 Raccourcisseur d'URL pour les développeurs.
+  slidev: 🇫🇷 Traduction de la documentation en anglais.
+  make-server: ☁️ Déployer de nombreux services présents sur mon infrastructure à partir de fichiers pour Kubernetes.
+  fallback: ⚠️/❌ Routage de secours en amont pour mon instance Traefik hébergée, achemine le trafic ailleurs lorsqu'un service est en panne.
 
 stacks:
   title: Technical stack

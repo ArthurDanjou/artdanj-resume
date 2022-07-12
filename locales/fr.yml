@@ -49,6 +49,8 @@ projects:
   api: API connectée à des services comme Spotify fournissant diverses informations
   shortener: Raccourcisseur d'URL Open-Source pour les développeurs
   slidev: Traduction de la documentation en Français
+  make-server:
+  fallback:
 
 stacks:
   title: Stack technique
