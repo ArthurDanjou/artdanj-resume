@@ -45,9 +45,9 @@ projects:
   title: Projects
   more: See more projects
 
-  ares: Personal website creating a single point of contact with my customers
-  athena: API connected to services like Spotify providing various information
-  linkyjs: Open-Source URL Shortener for Developers
+  website: Personal website creating a single point of contact with my customers
+  api: API connected to services like Spotify providing various information
+  shortener: Open-Source URL Shortener for Developers
   slidev: Translation of documentation in French
 
 stacks:

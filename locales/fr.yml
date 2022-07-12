@@ -45,9 +45,9 @@ projects:
   title: Projets
   more: Voir plus de projets
 
-  ares: Site web personnel créant un unique point de contact avec mes clients
-  athena: API connectée à des services comme Spotify fournissant diverses informations
-  linkyjs: Raccourcisseur d'URL Open-Source pour les développeurs
+  website: Site web personnel créant un unique point de contact avec mes clients
+  api: API connectée à des services comme Spotify fournissant diverses informations
+  shortener: Raccourcisseur d'URL Open-Source pour les développeurs
   slidev: Traduction de la documentation en Français
 
 stacks:

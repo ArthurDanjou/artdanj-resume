@@ -9,18 +9,18 @@ const { t } = useI18n()
   <SectionPart>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-4 h-full auto-rows-fr">
       <Project
-        title="Ares"
-        description="projects.ares"
+        title="artdanj-website"
+        description="projects.website"
         url="https://arthurdanjou.fr"
       />
       <Project
-        title="Athena"
-        description="projects.athena"
+        title="artdanj-api"
+        description="projects.api"
         url="https://api.arthurdanjou.fr"
       />
       <Project
-        title="LinkyJs"
-        description="projects.linkyjs"
+        title="artdanj-shortner"
+        description="projects.shortener"
         url="https://github.com/linkyjs"
       />
       <Project
