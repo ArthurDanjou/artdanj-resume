@@ -31,7 +31,7 @@ const { t } = useI18n()
     </div>
     <div class="flex justify-center sm:justify-start">
       <a
-        href="https://arthurdanjou.fr/projects"
+        href="https://go.arthurdanjou.fr/projects"
         target="_blank"
         class="leading-5 font-bold border-b-2 hover:(border-gray-700 dark:border-white) border-gray-300 dark:border-gray-600 dark:border-gray-800 duration-300 cursor-pointer"
       >
