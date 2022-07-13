@@ -34,7 +34,7 @@ const { t } = useI18n()
         url="https://fallback.arthurdanjou.fr"
       />
       <Project
-        title="make-my-sever"
+        title="make-my-server"
         description="projects.make-server"
         url="https://github.com/arthurdanjou/make-my-server"
       />
